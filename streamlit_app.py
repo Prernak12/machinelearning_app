@@ -53,6 +53,11 @@ with st.sidebar:
 y = y_raw.apply(target_encode)
 y
 y_raw
+with st.expander('Data preparation'):
+  st.write('**Encoded X (input penguin)**')
+  input_row
+  st.write('**Encoded y**')
+  y
 
 with st.expander('Input features'):
   st.write('**Input penguins**')
