@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-st.title('🤖 Machine Learning App')
+st.title('🤖 Prerna's Machine Learning App')
 
 st.info('This is app builds a machine learning model!')
 
