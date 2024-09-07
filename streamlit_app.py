@@ -37,7 +37,7 @@ with st.sidebar:
           'body_mass_g': body_mass_g,
           'sex': gender}
   input_df = pd.DataFrame(data, index=[0])
-  input_penguins = pd.concat([input_df, X_raw], axis=0)
+  Input_penguins = pd.concat([input_df, X_raw], axis=0)
 
   #encode
   encode = ['island','sex']
@@ -56,7 +56,7 @@ with st.expander('Input features'):
   st.write('**input penguins**')
   input_df
   st.write('**Combined penguins data**')
-  input_penguins
+  Input_penguins
   st.write('**Encoded input penguins**')
   input_row
 
